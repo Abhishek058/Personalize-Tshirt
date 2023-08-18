@@ -1,5 +1,8 @@
 ## Introduction
 Many large corporations already use 3D graphics to showcase their products. ThreeJS 3D product website and infuse it with the power of artificial intelligence! 
+
+![image](https://github.com/Abhishek058/Personalize-Tshirt/assets/101443776/6f193f39-e741-4398-a2fe-076e6098655b)
+
  
 Technologies Used:
 - ThreeJS - a powerful 3D graphics library for rendering and animating the 3D model
