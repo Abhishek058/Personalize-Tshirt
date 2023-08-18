@@ -15,15 +15,15 @@ const Home = () => {
     <AnimatePresence>
       {snap.intro && (
         <motion.section className="home" {...slideAnimation("left")}>
-          <motion.header>
+          <motion.header {...slideAnimation("down")}>
             <img
               src="./threejs.png"
               alt="logo"
               className="w-8 h-8 object-contain"
             />
           </motion.header>
-          <motion.div className="home-content">
-            <motion.div {...headContentAnimation}>
+          <motion.div className="home-content" {...headContainerAnimation}>
+            <motion.div {...headTextAnimation}>
               <h1 className="head-text">
                 LET'S
                 <br className="xl:block hidden" /> DO IT.
@@ -42,7 +42,7 @@ const Home = () => {
                 type="filled"
                 title="Customize It"
                 handleClick={() => (state.intro = false)}
-                customStyles="w-fit px-4 py-2.5 font-bold text-sm"  
+                customStyles="w-fit px-4 py-2.5 font-bold text-sm"
               />
             </motion.div>
           </motion.div>
